@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+input:focus{
+    outline: none;
+}
+#container{
+    height: 729px;
+    width: max-content;
+    text-align: center;
+    background-color: #F4F4F4;
+    margin: 50px auto;
+    border: 6px solid cornsilk;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px black;
+}
+
+#heading{
+    height: 285px;
+    width: 550px;
+    background: #6943FF;
+    color: white;
+    padding: 1px;
+    margin-top: 0px;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+
+}
+
+#heading>h2{
+    margin-top: 33px;
+    margin-bottom: 30px;
+}
+
+#btn{
+    display: block;
+    width: 117px;
+    height: 42px;
+   margin: 25px auto 0px auto;
+   border-radius: 5px;
+   border: 1px solid #B295FF;
+
+}
+input{
+    background: inherit;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFF;
+    border: 2px solid #B295FF;
+}
+::placeholder{
+    color: #FFF;
+}
+
+.dimensions{
+    height: 109px;
+    width: 500px;
+    background-color: #FFF;
+    padding: 1px;
+}
+
+.dimensions h3{
+    margin-top: 23px;
+}
+#meter-box{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#units-section{
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
