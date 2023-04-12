@@ -10,7 +10,6 @@ input:focus{
     text-align: center;
     background-color: #F4F4F4;
     margin: 50px auto;
-    border: 6px solid cornsilk;
     border-radius: 20px;
     box-shadow: 0px 2px 10px black;
 }
@@ -61,6 +60,8 @@ input{
     width: 500px;
     background-color: #FFF;
     padding: 1px;
+    box-shadow: 0px 2px 2px black;
+
 }
 
 .dimensions h3{
